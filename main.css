@@ -1,0 +1,133 @@
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  background: #000;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+main {
+  background: #f8f7ff;
+}
+
+.logoLoja {
+  width: 200px;
+  margin: 30px;
+  padding: 15px;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  margin: 0 10px;
+  padding: 12px 10px;
+  border-radius: 4px;
+  color: #0f0326;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #fffdf7;
+}
+
+.menu li a:hover {
+  background: rgba(255, 253, 247, 0.61);
+  color: #f0f8ff;
+}
+
+h1 {
+  margin: 0;
+  padding: 40px;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.smartphone {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin: 30px;
+  max-width: 480px;
+}
+
+.cell {
+  width: 340px;
+}
+
+.tituloCelular {
+  font-size: 2.15em;
+  padding: 15px;
+  color: #0f0326;
+}
+
+.descricaoCelular {
+  font-size: 1.2em;
+  padding-top: 15px;
+}
+
+.assineNovidades {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid #fff;
+}
+
+.assineNovidades h1 {
+  font-size: 2em;
+}
+
+.formulario input,
+.formulario button {
+  display: inline-block;
+  width: 200px;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 1em;
+  font-style: italic;
+}
+
+.formulario input {
+  outline-color: rgba(15, 3, 38, 0.315);
+  background-color: #fffdf7;
+}
+
+.formulario input:focus {
+  outline-color: #0f0326;
+  background-color: #fff;
+}
+
+.formulario button {
+  font-style: normal;
+  font-weight: bold;
+  color: #0f0326;
+  background: #fffdf7;
+  width: 150px;
+}
+
+.formulario button:hover {
+  background: rgba(15, 3, 38, 0.5);
+  color: #f8f7ff;
+}
+
+.rodape {
+  text-align: center;
+  border-top: 3px solid #fff;
+  background: #000;
+  color: #f8f7ff;
+  margin: 0;
+  padding: 10px;
+}
